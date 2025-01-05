@@ -1,4 +1,7 @@
 name = "gemini"
 main = "src/worker.mjs"
+routes = [
+  { pattern = "gemini.cestlavie.moe", custom_domain = true }
+]
 compatibility_date = "2024-09-23"
 compatibility_flags = [ "nodejs_compat" ]
